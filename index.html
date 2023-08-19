@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dictionary App</title>
+</head>
+<body>
+    <header>
+        <button id="historyBtn">History</button>
+    </header>
+    
+    <main id="mainContent">
+        <div class="search-container">
+            <h1 class="app-name">Dictionary App</h1>
+            <input type="text" id="searchInput" placeholder="Enter a word">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="wordCardsContainer"></div>
+    </main>
 
+    <div id="historyPage" class="hidden">
+        <h2>Search History</h2>
+        <button id="backToSearchBtn">Back to Search</button>
+        <button id="clearHistoryBtn">Clear History</button>
+        <div id="historyCardsContainer"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
